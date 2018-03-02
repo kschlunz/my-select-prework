@@ -8,6 +8,6 @@ def my_select(collection)
  end
   new_collection
 end
-end
+
 
 [1,2,3,4,5].select { |num|  num.even?  }
