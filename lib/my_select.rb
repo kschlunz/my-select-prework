@@ -15,4 +15,4 @@ def my_select(collection)
 end
 
 
-my_array.each {|x| puts x if x.even?  }
+my_array.each {|x| x if x.even?  }
