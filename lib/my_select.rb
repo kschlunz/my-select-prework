@@ -9,7 +9,7 @@ def my_select(collection)
    i = i + 1
 
  end
- collection 
+ collection
 end
 
 
