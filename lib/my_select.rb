@@ -11,6 +11,7 @@ def my_select(collection)
    new_array<<collection[i]
 
   end
+
  end
  new_array
 end
