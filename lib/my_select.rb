@@ -7,7 +7,7 @@ def my_select(collection)
   while i < collection.length
 
   if yield(collection[i])
-   new_array << yield(collection[i])
+   new_array<<collection[i]
    i = i + 1
   end
  end
@@ -15,4 +15,4 @@ def my_select(collection)
 end
 
 
-my_select([1,2,3,4,5]){|x| x if x.even?  }
+my_select([1,2,3,4,5]){|x| x if x.even?}
