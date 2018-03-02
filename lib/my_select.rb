@@ -6,9 +6,7 @@ def my_select(collection)
    i = i + 1
 
  end
-  if new_collection[i] = true
-    new_collection[i]
-  end 
+  new_collection[i]
 end
 
 
