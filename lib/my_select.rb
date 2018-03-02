@@ -5,9 +5,10 @@ def my_select(collection)
 
   i = 0
   while i < collection.length
+    if num % 2= 0
    yield(collection[i])
    i = i + 1
-
+ end 
  end
  collection
 end
