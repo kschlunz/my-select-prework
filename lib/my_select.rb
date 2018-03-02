@@ -6,7 +6,7 @@ def my_select(collection)
    i = i + 1
 
  end
- collecion 
+ collection 
 end
 
 
