@@ -1,5 +1,5 @@
 
-my_array = [1,2,3,4,5]
+
 
 def my_select(collection)
   new_array = []
@@ -15,4 +15,4 @@ def my_select(collection)
 end
 
 
-my_array.each {|x| x if x.even?  }
+my_select([1,2,3,4,5]){|x| x if x.even?  }
