@@ -5,10 +5,11 @@ def my_select(collection)
   new_array = []
   i = 0
   while i < collection.length
-    if num % 2 == 0
+
+  if collection[i]% 2 == 0
    new_array << yield(collection[i])
    i = i + 1
- end
+  end
  end
  new_array
 end
